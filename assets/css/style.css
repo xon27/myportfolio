@@ -32,6 +32,8 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -282,6 +284,7 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
+  
   width: 100%;
   height: 100vh;
   background: url("../img/myhero-image.jpeg") top right no-repeat;
@@ -443,12 +446,23 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+.about p{
+  padding-right: 20rem;
+  font-size: 20px;
+ 
+}
+.about .img {
 
-.about .img-fluid {
-  width: 100%;
+  float: left;
+  clip-path: circle(40%);
+  shape-outside: circle(45%);
+  width: 30rem;
+  
+  
+  /* width: 100%;
   height: 22rem;
   border-radius: 50%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   
 }
 
@@ -973,6 +987,7 @@ section {
   border-radius: 50%;
   border: 4px solid #fff;
   margin: 0 auto;
+  
 }
 
 .testimonials .testimonial-item h3 {
@@ -1165,6 +1180,9 @@ section {
 }
 
 
+.map {
+  padding-left: 120px;
+}
 
 
 
@@ -1359,6 +1377,3 @@ section {
     bottom: 100%;
   }
 }
-
-
-
