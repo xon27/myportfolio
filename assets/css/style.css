@@ -1386,8 +1386,26 @@ section {
 }
 
 .article {
-  margin: 0 15rem;
+  margin: 0 2rem;
   font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  .article {
+    margin: 0 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .article {
+    margin: 0 10rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .article {
+    margin: 0 15rem;
+  }
 }
 
 
